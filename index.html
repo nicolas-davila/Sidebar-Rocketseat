@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>sidebar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navigation">
+    <div class="botao-menu">
+      <img id="imagem" class="logo" src="./images-sidebar/logo.svg">
+      <button class="botao" onclick="clicou()">
+        <img id="botao" src="./images-sidebar/menu.svg">
+      </button>
+    </div>
+    <div>
+      <ul>
+        <li class="list active">
+          <a href="#">
+            <span class="icon"><img src="./images-sidebar/search.svg"></span>
+            <span class="title">Buscar</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#">
+            <span class="icon"><img src="./images-sidebar/grid.svg"></span>
+            <span class="title">Dashboard</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#">
+            <span class="icon"><img src="./images-sidebar/pet.svg"></span>
+            <span class="title">Pets</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#">
+            <span class="icon"><img src="./images-sidebar/user.svg"></span>
+            <span class="title">Clientes</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#">
+            <span class="icon"><img src="./images-sidebar/vet.svg"></span>
+            <span class="title">Vets</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#">
+            <span class="icon"><img src="./images-sidebar/settings.svg"></span>
+            <span class="title">Ajustes</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="log-out">
+      <footer class="footer">
+        <img class="footer-img" src="./images-sidebar/log-out.svg" alt="">
+      </footer>
+    </div>
+  </nav>
+  <script src="script.js"></script>
+</body>
+
+</html>

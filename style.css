@@ -1,0 +1,107 @@
+:root {
+  --body-bg-color: #dce4e3;
+  --green: #18c29c;
+  --light-green: #8ed7c6;
+	--light-grey: #dce4e3;
+  --text-color: #084236;
+}
+
+body {
+  font-family: 'Poppins', sons-serif;
+  background: var(--body-bg-color);
+}
+
+.navigation {
+  position: relative;
+  height: 98vh;
+  background: var(--green);
+  width: 65px;
+  overflow-x: hidden;
+  transition: 0.2s;
+}
+
+.botao-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.botao {
+  background: var(--green);
+  border: none;
+}
+
+.botao:hover {
+  cursor: pointer;
+}
+
+.add-nav {
+  width: 25vw;
+  transition: 0.7s;
+}
+
+.logo {
+  display: none;
+}
+
+.navigation ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 40px;
+}
+
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+}
+
+.navigation ul li a{
+  position: relative;
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+}
+
+.navigation ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 70px;
+}
+
+.navigation ul li a .icon img {
+  position: relative;
+  font-size: 1.5rem;
+  z-index: 1;
+}
+
+.navigation ul li a .title {
+  position: relative;
+  display: block;
+  padding-left: 2px;
+  height: 60px;
+  line-height: 60px;
+  white-space: nowrap;
+  color: var(--text-color);
+}
+
+.navigation ul li:hover{
+  background: var(--light-green);
+}
+
+.log-out {
+  display: flex;
+  justify-content: center;
+  margin-top: 90.7vh;
+  background: var(--light-green);
+}
+
+.footer-img {
+  
+}
