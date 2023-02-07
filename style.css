@@ -19,7 +19,7 @@ body {
 
 .titulo-mover {
   margin-left: 200px;
-  transition: 0.8s;
+  transition: 0.7s;
 }
 
 .navigation {
@@ -52,7 +52,8 @@ body {
 
 .logo-img {
   display: none;
-  margin-right: 90px;;
+  height: 27px;
+  margin-right: 90px;
 }
 
 .logo-appear {
@@ -125,6 +126,10 @@ body {
   width: 100%;
   margin-top: 39.7vh;
   background-color: var(--light-green);
+}
+
+.img-log-out:hover {
+  cursor: pointer;
 }
 
 .info-user {
