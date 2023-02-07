@@ -5,14 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>sidebar</title>
+  <link rel="stylesheet" href="reset.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header class="titulo"><h1>Dashboard</h1></header>
   <nav class="navigation">
     <div class="botao-menu">
-      <img id="imagem" class="logo" src="./images-sidebar/logo.svg">
+      <img id="imagem" class="logo-img" src="./images-sidebar/logo.svg">
       <button class="botao" onclick="clicou()">
         <img id="botao" src="./images-sidebar/menu.svg">
       </button>
@@ -57,10 +59,15 @@
         </li>
       </ul>
     </div>
-    <div class="log-out">
-      <footer class="footer">
-        <img class="footer-img" src="./images-sidebar/log-out.svg" alt="">
-      </footer>
+    <div class="footer-nav">
+      <div class="info-user">
+        <img src="./images-sidebar/photo.jpg" alt="Foto do Usuário">
+        <div class="text-user">
+          <p>Eleanor Pena</p>
+          <p>Veterinária</p>
+        </div>
+      </div>
+      <img src="./images-sidebar/log-out.svg" alt="Icone de Sair">
     </div>
   </nav>
   <script src="script.js"></script>

@@ -11,9 +11,20 @@ body {
   background: var(--body-bg-color);
 }
 
+.titulo {
+  position: absolute;
+  font-size: 30px;
+  margin-left: 70px;
+}
+
+.titulo-mover {
+  margin-left: 200px;
+  transition: 0.8s;
+}
+
 .navigation {
   position: relative;
-  height: 98vh;
+  height: 100vh;
   background: var(--green);
   width: 65px;
   overflow-x: hidden;
@@ -39,12 +50,16 @@ body {
   transition: 0.7s;
 }
 
-.logo {
+.logo-img {
   display: none;
+  margin-right: 90px;;
+}
+
+.logo-appear {
+  display: block;
 }
 
 .navigation ul {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -95,13 +110,55 @@ body {
   background: var(--light-green);
 }
 
-.log-out {
-  display: flex;
-  justify-content: center;
-  margin-top: 90.7vh;
-  background: var(--light-green);
+.h1 {
+  position: relative;
+  padding-left: 100px;
+  bottom: 2px;
 }
 
-.footer-img {
-  
+.footer-nav {
+  padding: 0 15px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  margin-top: 39.7vh;
+  background-color: var(--light-green);
+}
+
+.info-user {
+  display: none;
+  line-height: 15px;
+  color: var(--text-color);
+}
+
+.info-user p:first-child {
+  font-size: .9rem;
+}
+
+.info-user p:last-child {
+  font-size: .7rem;
+}
+
+.info-user img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  object-position: -3px 0;
+  border-radius: 12px;
+}
+
+.text-user {
+  min-width: 100%;
+}
+
+.add-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.padding {
+  padding: 0 5px 0 0;
 }
